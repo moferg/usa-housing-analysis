@@ -38,3 +38,16 @@ This information can be found on the original Kaggle page, but I wanted to also 
 |lat | latitude|
 |long | longitude|
 |state | state of listing|
+
+## Project Requirements
+
+The following is a list of the requirements laid out by Code Louisville that this project meets:
+
+1. "Read data from an external file and use that data in your application."
+    -This project reads in a CSV file obtained from Kaggle and uses the data in said file for analysis.
+2. "Use a Jupyter notebook to document your data analysis."
+    -The data analysis performed in this project is stored in a Jupyter notebook.
+3. "Visualize data in a graph, chart, or other visual representation of data."
+    -There are multiple charts created with the seaborn library in this project.
+4. "Source data should not be modified/changed - clean data should be stored separately."
+    -The original dataset, `housing.csv`, is unchanged. There is a shortened version of the data in `housing_trimmed.csv`, and a cleaned version in `housing_cleaned.csv`.
