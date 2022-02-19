@@ -1,6 +1,6 @@
 # USA Housing Data Analysis Project
 
-This project consists of a Jupyter notebook used to analyze housing data and a CSV file containing data about the USA housing market.
+This project consists of a Jupyter notebook used to analyze housing data and a CSV file containing data about the USA housing market. The end goal is to use a Linear Regression model to predict housing prices based on features of the house, and along the way to compare the housing markets of comparable US cities. This project will also serve as the capstone project submission for the Code Louisville Data Analysis Course 2.
 
 ## Work In Progress
 
