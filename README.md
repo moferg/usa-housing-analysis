@@ -1,14 +1,28 @@
 # USA Housing Data Analysis Project
 
-This project consists of a Jupyter notebook used to analyze housing data and a CSV file containing data about the USA housing market. The end goal is to use a Linear Regression model to predict housing prices based on features of the house, and along the way to compare the housing markets of comparable US cities. This project will also serve as the capstone project submission for the Code Louisville Data Analysis Course 2.
+This project consists of a Jupyter notebook used to analyze housing data and a CSV file containing data about the USA housing market. This project will also serve as the capstone project submission for the Code Louisville Data Analysis Course 2.
 
-## Work In Progress
+## Instructions
 
-**This repo is actively being worked on.**
+This repo is built using a number of libraries, the most important of which are geopandas, bokeh, and seaborn. Installing these libraries will install all other needed libraries by default. It is recommended to create a conda environment so as to not have to deal with any dependecies, especially with geopandas. You can do this by entering the following code into an anaconda command prompt:
+
+`conda create -n geo-env`
+
+`conda activate geo-env`
+
+`conda install geopandas`
+
+`conda install descartes`
+
+`conda install bokeh`
+
+`conda install seaborn`
+
+Running these commands will create a virtual environment, in this case named geo-env, and install all necessary libraries. Afterwards, just open the Jupyter Notebook and run all cells.
 
 ## Data
 
-This project will use data sourced from a Kaggle dataset about homes for sale in the United States. The data is scraped from Craigslist every quarter or so, but at the time of this writing the most recent update to the dataset was performed on 6/17/2020. The dateset author did not state why the data has not been updated more recently, but this dataset should be fine for the analysis I want to perform. The original dataset can be [found here on Kaggle.](https://www.kaggle.com/austinreese/usa-housing-listings)
+This project will use data sourced from a Kaggle dataset about homes for rent in the United States. The data is scraped from Craigslist every quarter or so, but at the time of this writing the most recent update to the dataset was performed on 6/17/2020. The dateset author did not state why the data has not been updated more recently, but this dataset should be fine for the analysis I want to perform. The original dataset can be [found here on Kaggle.](https://www.kaggle.com/austinreese/usa-housing-listings)
 
 ## Data Dictionary
 
@@ -47,7 +61,7 @@ The following is a list of the requirements laid out by Code Louisville that thi
     * "Read data from an external file and use that data in your application."
         
         -This project reads in a CSV file obtained from Kaggle and uses the data in said file for analysis.
-2. CAtegory 3: Data Display
+2. Category 3: Data Display
     * "Use a Jupyter notebook to document your data analysis."
         
         -The data analysis performed in this project is stored in a Jupyter notebook.
